@@ -1,5 +1,3 @@
--- see example.
-
 return {
   "nvim-lualine/lualine.nvim",
   event = "VeryLazy",
