@@ -19,6 +19,7 @@ require("lazy").setup({
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
     -- import/override with your plugins
+    { import = "lazyvim.plugins.extras.lang.ruby" },
     { import = "plugins" },
     -- Add ruby LSP via LazyVim Extras
     { import = "lazyvim.plugins.extras.lang.ruby" },
